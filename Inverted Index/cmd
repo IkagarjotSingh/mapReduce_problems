@@ -1,0 +1,1 @@
+$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.6.jar -input /user/* -output /output/ -file mapperIindex.py -file reducerIindex.py -mapper mapperIindex.py -reducer reducerIindex.py

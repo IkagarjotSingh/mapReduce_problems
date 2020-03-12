@@ -1,0 +1,1 @@
+$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.6.jar -input /user/shakespeare.txt -output /output/ -file mapperSubSample.py -file reducerSubSample.py -mapper mapperSubSample.py -reducer reducerSubSample.py
